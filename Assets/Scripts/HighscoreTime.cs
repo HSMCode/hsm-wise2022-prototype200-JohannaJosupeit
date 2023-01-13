@@ -8,12 +8,15 @@ public class HighscoreTime : MonoBehaviour
 {
     public Text counterText;
     public float seconds, minutes;
+    public  bool gameStarted;
     //public bool isPlaying = false; 
     
     // Start is called before the first frame update
     void Start()
     {
         counterText = GetComponent<Text>() as Text;
+        gameStarted =false;
+
 
     }
 
@@ -21,17 +24,24 @@ public class HighscoreTime : MonoBehaviour
     void Update()
 
     {
-         if (Input.GetKeyDown(KeyCode.Space))
-     {
-         
-        minutes = (int)(Time.time/60f);
-        seconds = (int)(Time.time % 60f);
-        counterText.text = "Highscore: " + minutes.ToString("00") + ":" + seconds.ToString("00");
+       if(Input.GetKeyDown("space"))
+            {
+            gameStarted = true;
+           
+            }
+        if(Input.GetKeyUp("space"))
+            {
+            gameStarted = true;
+           
+            }
         
-     }
-       
+         if (gameStarted)
+            {
+                counterText.text= "Highscore: " + Time.timeSinceLevelLoad;
+            }
+        
+    
     }
-
-    // muss herausfinden wie geanu ich schreiben muss dass einmal spaxe up and down = start timer ist 
+    
     
 }
