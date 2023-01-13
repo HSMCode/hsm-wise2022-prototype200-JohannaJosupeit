@@ -1,0 +1,32 @@
+# Blender 3.4.1 MTL File: 'prefabsinprogress.blend'
+# www.blender.org
+
+newmtl Door_and_Windows
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd D:/Dokumente/ZBM/Creating Games/Bluigi the Racing Dragon/Anger Kitty/Assets/Textures/DoorsAndWindows.png
+
+newmtl Wall01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd D:/Dokumente/ZBM/Creating Games/Bluigi the Racing Dragon/Anger Kitty/Assets/Textures/Wall01.png
+
+newmtl Wall1.1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd D:/Dokumente/ZBM/Creating Games/Bluigi the Racing Dragon/Anger Kitty/Assets/Textures/Wall01.1.png
