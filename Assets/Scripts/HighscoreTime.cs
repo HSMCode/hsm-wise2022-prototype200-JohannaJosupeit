@@ -7,7 +7,7 @@ public class HighscoreTime : MonoBehaviour
 
 {
     public Text counterText;
-    public float seconds, minutes;
+    public int seconds, minutes;
     public  bool gameStarted;
     //public bool isPlaying = false; 
     

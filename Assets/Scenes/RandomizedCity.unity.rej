@@ -1,0 +1,10 @@
+diff a/Assets/Scenes/RandomizedCity.unity b/Assets/Scenes/RandomizedCity.unity	(rejected hunks)
+@@ -38,7 +38,7 @@
+   m_ReflectionIntensity: 1
+   m_CustomReflection: {fileID: 0}
+   m_Sun: {fileID: 0}
+-  m_IndirectSpecularColor: {r: 0.17302442, g: 0.21624303, b: 0.29823554, a: 1}
++  m_IndirectSpecularColor: {r: 0.4370152, g: 0.48470467, b: 0.56496775, a: 1}
+   m_UseRadianceAmbientProbe: 0
+ --- !u!157 &3
+ LightmapSettings:

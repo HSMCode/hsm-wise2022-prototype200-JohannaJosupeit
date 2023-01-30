@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Time.timeScale = 1;
 
-        Speed = 20f;
+        Speed = 17f;
         controller = GetComponent<CharacterController>();
         xPosition = 0f;
         xValue = 4f;
